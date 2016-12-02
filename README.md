@@ -1,9 +1,5 @@
 Contributors: Dominique Miller 
 
-Tags: documentation, hierarchy, custom post type, syntax highlighting
-
-Requires at least: 3.5.1
-
 Tested up to: 4.6.1
 
 Stable tag: 0.1.0
