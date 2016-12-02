@@ -1,0 +1,78 @@
+.lazy-drop-down-container {
+  overflow: hidden;
+  width: 50%;
+}
+
+
+.lazy-click {
+  cursor: pointer;
+}
+
+.create-spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease;
+}
+
+.show-spinner-container {
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+
+.spinner-settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.spinner-preview {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.lazy-spinner-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2%;
+}
+
+.lazy-spinner-container-preview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+}
+
+.lazy-spinner {
+  width:32px;
+  height:32px;
+  border-radius:32px;
+  box-sizing:border-box;
+  border:2px solid white;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-16px 0px 0px -16px;
+  border-color: #007cba;
+  border-top-color: transparent;
+  animation: rotate 1000ms infinite linear;
+  transform:translateZ(0px);
+}
+
+
+.hide-lazy-spinner {
+  display: none;
+}
+
+@keyframes rotate {  
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);} 
+}
+
