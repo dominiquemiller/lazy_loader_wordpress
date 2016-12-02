@@ -1,7 +1,5 @@
 Contributors: Dominique Miller 
 
-Donate link: http://fooplugins.com/donate
-
 Tags: documentation, hierarchy, custom post type, syntax highlighting
 
 Requires at least: 3.5.1
